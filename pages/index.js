@@ -7,7 +7,7 @@ export default function Home() {
     <div className="app">
       <Cursor/>
       <Marquee duration={10}>
-          <span className='p-s'> 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript</span>
+          <span className='p-s'> ✧ 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript ✧ 100 days of code ✧ vanilla JavaScript</span>
         </Marquee>
       <HelloWorld />
     </div>
