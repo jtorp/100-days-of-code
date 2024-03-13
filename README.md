@@ -1,4 +1,4 @@
-# Example app with next-sass
+# Example Next portfolio app with next-sass, gsap, lenis
 
 This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
 

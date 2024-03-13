@@ -1,0 +1,44 @@
+
+@import 'colors.scss';
+@import 'easings.scss';
+@import 'functions.scss';
+@import 'themes.scss';
+@import '_reset.scss';
+
+
+// custom cursor
+html.has-custom-cursor {
+
+  &,
+  * {
+
+    &,
+    &::before,
+    &::after {
+      cursor: none !important;
+    }
+  }
+}
+
+a,
+button,
+input,
+label,
+textarea,
+select {
+  color: inherit;
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $backgroundColor;
+}
+
+:root {
+  --header-height: #{mobile-vw(58px)};
+
+  @include desktop {
+    --header-height: #{desktop-vw(98px)};
+  }
+}
